@@ -7,5 +7,6 @@ deploy:
   api_key:
     secure: BCIzavHtPDb3R5qNcuDN2H2oWFNB9mTnRRctDyrzzLiuPNJDn49Ef0o09Do4xCCYxcfizsTiT77kuhmjAGuQ0avmyck32CH7n/75mTYwQl+Ol3eLZXHvdAra62MC5mxUrb2yLjGD/0j6KVvD1J/2m3MFUygNuWud9eMB82Z5SB4=
   on:
+    all_branches: true
     tags: true
     repo: jbuck/aws4-signature
