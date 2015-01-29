@@ -1,6 +1,6 @@
 {
   "name": "aws4-signature",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "AWS Version 4 signature generator",
   "main": "lib/index.js",
   "directories": {
