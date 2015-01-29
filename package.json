@@ -1,0 +1,27 @@
+{
+  "name": "aws4-signature",
+  "version": "0.0.0",
+  "description": "AWS Version 4 signature generator",
+  "main": "lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/examples.js && node test/testsuite.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jbuck/aws4-signature.git"
+  },
+  "keywords": [
+    "aws",
+    "aws4",
+    "signature"
+  ],
+  "author": "Jon Buckley <jon@jbuckley.ca>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jbuck/aws4-signature/issues"
+  },
+  "homepage": "https://github.com/jbuck/aws4-signature"
+}
