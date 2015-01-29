@@ -25,7 +25,7 @@ console.log(signature);
 
 aws4-signature has a single function that returns a hexadecimal encoded signature
 
-```javascript
+```
 function aws4_sign(
   secret, // Your AWS secret key
   date, // The date of the request in any format that "new Date()" can parse
