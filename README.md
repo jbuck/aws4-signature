@@ -28,7 +28,7 @@ aws4-signature has a single function that returns a hexadecimal encoded signatur
 ```javascript
 function aws4_sign(
   secret, // Your AWS secret key
-  date, // The date of the request in any format that `new Date()` can parse
+  date, // The date of the request in any format that "new Date()" can parse
   region, // The region that is receiving the request
   service, // The service that is receiving the request
   string_to_sign // The string to sign
